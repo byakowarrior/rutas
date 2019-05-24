@@ -24,7 +24,7 @@ while($datos =mysqli_fetch_array($r)){
 	echo "<td>
 </td>";
 	echo "<td>
-	<a href='coochofal.html?id=".$datos['RUT_ID']."'>VER RUTA</a></td>";
+	<a href='".$datos['RUT_NOMBRE'].".html?id=".$datos['RUT_ID']."'>VER RUTA</a></td>";
 	echo "<tr>";
 	echo "<td><br/></td>";
 	echo "<td><br/></td>";
